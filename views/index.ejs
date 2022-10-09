@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Node.js Calculator</title>
+
+    <style>
+
+        body{
+            background-color: rgba(232, 234, 236, 0.5);
+            text-align: center;
+            font-size: larger;            
+        }
+
+        input,button,select{ margin-bottom: 10px;
+        }
+        
+        .button {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>This is Node.js Calculator</h1>
+
+    <div>
+        <form action="/ans/" method="">
+
+            num1:<input type="number" name="num1" placeholder="Enter Number" required oninvalid="this.setCustomValidity('Enter Number Here')">
+            <br/>
+            num2 : <input type="number" name="num2"  placeholder="Enter Number" required>
+            <br/>
+
+            <input type="radio" id="sum" name="op" value="+" required>
+            +&nbsp;
+            <input type="radio" id="minus" name="op" value="-">
+            -<br>
+            <input type="radio" id="multi" name="op" value="*">
+            *&nbsp;
+            <input type="radio" id="division" name="op" value="/">
+            /<br>
+
+            <input type="submit" class="button" value="calculate">
+
+        </form>
+    </div>
+    
+</body>
+</html>

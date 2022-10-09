@@ -1,0 +1,26 @@
+{
+  "name": "web-calculator",
+  "version": "1.0.0",
+  "description": "node js app",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Divyesh",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkpatoliya/web-calculator.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/dkpatoliya/web-calculator/issues"
+  },
+  "homepage": "https://github.com/dkpatoliya/web-calculator#readme"
+}
