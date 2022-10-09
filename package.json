@@ -12,15 +12,6 @@
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Divyesh",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dkpatoliya/web-calculator.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/dkpatoliya/web-calculator/issues"
-  },
-  "homepage": "https://github.com/dkpatoliya/web-calculator#readme"
+  "author": "Ramesh",
+  "license": "ISC"
 }
